@@ -1,6 +1,6 @@
 import {Button, Icon, Layout, Text} from '@ui-kitten/components';
 import {useAuthStore} from '../../store/auth/useAuthStorage';
-import {getProductsByPage} from '../../../actions/products/get=products-by-page';
+import {getProductsByPage} from '../../../actions/products/get-products-by-page';
 import {useInfiniteQuery} from '@tanstack/react-query';
 import {MainLayout} from '../../layouts/MainLayout';
 import {FullScreenLoader} from '../../components/ui/FullScreenLoader';
